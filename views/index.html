@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autenticación TOTP</title>
+</head>
+<body>
+    <h2>Ingrese el código de autenticación</h2>
+    <form action="/verificar" method="POST">
+        <input type="text" name="codigo" placeholder="Código de autenticación" required>
+        <button type="submit">Verificar</button>
+    </form>
+</body>
+</html>
